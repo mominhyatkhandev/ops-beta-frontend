@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useRef } from 'react'
 
 interface IModalProps {
   isSuccess: boolean;
@@ -13,14 +13,14 @@ const Modal: React.FC<IModalProps> = ({
   children,
   setShowModal,
 }) => {
-  const modalRef = useRef<HTMLDivElement>(null);
+  const modalRef = useRef<HTMLDivElement>(null)
 
   const closeModal = () => {
     // Perform any necessary actions to close the modal
-    setShowModal(false);
-  };
+    setShowModal(false)
+  }
 
-  if (!showModal) return null;
+  if (!showModal) return null
 
   return (
     <div
@@ -30,18 +30,18 @@ const Modal: React.FC<IModalProps> = ({
       <div
         ref={modalRef}
         className={
-          isSuccess
-            ? `bg-slate-200 border-2 w-1/3 h-1/4 flex items-center justify-center rounded-lg p-8`
-            : `bg-slate-200 border-2 w-1/3 h-1/4 flex items-center justify-center rounded-lg p-8`
+          isSuccess ?
+            `bg-slate-200 border-2 w-1/3 h-1/4 flex items-center justify-center rounded-lg p-8` :
+            `bg-slate-200 border-2 w-1/3 h-1/4 flex items-center justify-center rounded-lg p-8`
         }
       >
         <div>{children}</div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Modal;
+export default Modal
 
 // <SuccessModal showModal={showModal} setShowModal={setShowModal}>
 //   <div className="flex space-x-2">

@@ -1,11 +1,11 @@
 import axios from "axios";
 
-export const baseURL: string = process.env.BASE_URL || "http://65.109.38.98:3001/"; // Replace with your API's base URL
+export const baseURL: string =
+  process.env.BASE_URL ?? "http://65.109.38.98:3001/"; // Replace with your API's base URL
 
 const apiClient = axios.create({
-  baseURL: baseURL,
+  baseURL,
 });
-
 export default apiClient;
 
 // const ApiClient = () => {

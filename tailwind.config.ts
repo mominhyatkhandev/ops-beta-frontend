@@ -1,4 +1,4 @@
-import type { Config } from 'tailwindcss'
+import type { Config } from "tailwindcss";
 
 const config: Config = {
   content: [
@@ -9,8 +9,7 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: {
-        "custom": ["SF Pro Display", "sans-serif"],
-        "SF_Pro_Display": ["SF Pro Display", "sans"],
+        sans: ["var(--font-inter)"],
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
@@ -18,17 +17,17 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       fontWeight: {
-        "light": "300",
-        "normal": "400",
-        "semibold": "600",
+        light: "300",
+        normal: "400",
+        semibold: "600",
         "custom-bold": "700",
       },
       fontSize: {
-        "xs": "0.75rem",
-        "sm": "14px",
-        "base": "16px",
-        "lg": "24px",
-        "xl": "48px",
+        xs: "0.75rem",
+        sm: "14px",
+        base: "16px",
+        lg: "24px",
+        xl: "48px",
         "2xl": "1.5rem",
         "3xl": "1.875rem",
         "4xl": "2.25rem",
@@ -65,4 +64,4 @@ const config: Config = {
 
   plugins: [require("tailwindcss-rtl")],
 };
-export default config
+export default config;

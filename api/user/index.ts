@@ -15,13 +15,8 @@ export const createUser = async (user: any): Promise<User> => {
   return created;
 };
 
-export const updateUser = async (
-  updatedUser: any
-): Promise<User> => {
-  const updated = await PATCH(
-    `user/${updatedUser.id}`,
-    updatedUser
-  );
+export const updateUser = async (updatedUser: any): Promise<User> => {
+  const updated = await PATCH(`user/${updatedUser.id}`, updatedUser);
   return updated;
 };
 

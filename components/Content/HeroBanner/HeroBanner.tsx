@@ -1,8 +1,8 @@
-import Image from "next/image";
-import React from "react";
-import Logo from "../../../assets/logo.svg";
-import Button from "../../UI/Button/PrimaryButton";
-import "./HeroBanner.css";
+import Image from 'next/image'
+import React from 'react'
+import Logo from '../../../assets/logo.svg'
+import Button from '../../UI/Button/PrimaryButton'
+import './HeroBanner.css'
 
 const HeroBanner = () => {
   return (
@@ -27,7 +27,7 @@ const HeroBanner = () => {
         />
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default HeroBanner;
+export default HeroBanner

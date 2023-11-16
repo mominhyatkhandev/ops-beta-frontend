@@ -1,5 +1,5 @@
-import Image from "next/image";
-import React from "react";
+import Image from 'next/image'
+import React from 'react'
 
 interface ICard {
   label: string;
@@ -26,7 +26,7 @@ const Card = ({ logo, label, children, className }: ICard) => {
         </p>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Card;
+export default Card

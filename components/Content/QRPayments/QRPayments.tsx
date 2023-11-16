@@ -22,7 +22,7 @@ const QRPayments = () => {
         </div>
       </div>
     </div>
-  );
+  )
 }
 
 export default QRPayments

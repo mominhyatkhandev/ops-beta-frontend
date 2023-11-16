@@ -1,8 +1,8 @@
-import React from "react";
-import Card from "../../UI/Card/Card";
-import web from "../../../assets/global.svg";
-import scanner from "../../../assets/scanning.svg";
-import cartIcon from "../../../assets/cartIcon.svg";
+import React from 'react'
+import Card from '../../UI/Card/Card'
+import web from '../../../assets/global.svg'
+import scanner from '../../../assets/scanning.svg'
+import cartIcon from '../../../assets/cartIcon.svg'
 
 const Info = () => {
   return (
@@ -21,7 +21,7 @@ const Info = () => {
             label="Online Payments"
             className={`text-dark hover:bg-primary hover:text-white`}
           >
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d{"  "}
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d{'  '}
             eiusmodtempor incididunt ut labore et dolore
           </Card>
           <Card
@@ -29,7 +29,7 @@ const Info = () => {
             label="QR Integrations"
             className={`text-dark hover:bg-primary hover:text-white`}
           >
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d{"  "}
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d{'  '}
             eiusmodtempor incididunt ut labore et dolore
           </Card>
           <Card
@@ -37,7 +37,7 @@ const Info = () => {
             label="Mini APPs"
             className={`text-dark hover:bg-primary hover:text-white`}
           >
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d{"  "}
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d{'  '}
             eiusmodtempor incididunt ut labore et dolore
           </Card>
           <Card
@@ -45,13 +45,13 @@ const Info = () => {
             label="Payment Link"
             className={`text-dark hover:bg-primary hover:text-white`}
           >
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d{"  "}
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d{'  '}
             eiusmodtempor incididunt ut labore et dolore
           </Card>
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Info;
+export default Info

@@ -1,6 +1,6 @@
-import Image from "next/image";
-import React from "react";
-import logo from "../../../assets/logo.svg"
+import Image from 'next/image'
+import React from 'react'
+import logo from '../../../assets/logo.svg'
 
 const Partners = () => {
   return (
@@ -17,11 +17,11 @@ const Partners = () => {
           <Image src={logo} alt="logo" width={100} height={100} />
           <Image src={logo} alt="logo" width={100} height={100} />
           <Image src={logo} alt="logo" width={100} height={100} />
-          <Image src={logo} alt="logo" width={100} height={100} />  
+          <Image src={logo} alt="logo" width={100} height={100} />
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Partners;
+export default Partners

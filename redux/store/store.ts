@@ -1,4 +1,9 @@
-import { configureStore, combineReducers, ThunkAction, Action } from "@reduxjs/toolkit";
+import {
+  configureStore,
+  combineReducers,
+  ThunkAction,
+  Action,
+} from "@reduxjs/toolkit";
 import { persistReducer, persistStore } from "redux-persist";
 import storage from "redux-persist/lib/storage";
 import userSlice from "../slices/userSlice";
@@ -10,7 +15,7 @@ const persistConfig = {
 };
 
 const rootReducer = combineReducers({
-  user: userSlice
+  user: userSlice,
 });
 
 const persistedReducer = persistReducer<any>(persistConfig, rootReducer);

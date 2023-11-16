@@ -1,8 +1,8 @@
-import Image from "next/image";
-import React from "react";
-import Logo from "../../assets/logo.svg";
-import phoneIcon from "../../assets/phoneIcon.png";
-import emailIcon from "../../assets/emailIcon.png"
+import Image from 'next/image'
+import React from 'react'
+import Logo from '../../assets/logo.svg'
+import phoneIcon from '../../assets/phoneIcon.png'
+import emailIcon from '../../assets/emailIcon.png'
 
 const Footer = () => {
   return (
@@ -10,12 +10,12 @@ const Footer = () => {
       <div className="bg-greyish2 h-[1px] w-full"></div>
       <div className="w-full flex justify-between">
         <div className="flex flex-col gap-[60px] min-h-[107px] items-start">
-          <Image src={Logo} alt="logo" height={36} width={173}/>
+          <Image src={Logo} alt="logo" height={36} width={173} />
           <div
             id="Copyright"
             className="leading-[20px] text-darkShade1 text-base font-normal"
           >
-            Copyright © 2023 Easypaisa | All Rights Reserved{" "}
+            Copyright © 2023 Easypaisa | All Rights Reserved{' '}
           </div>
         </div>
         <div className="flex flex-col justify-between min-h-[107px] gap-[24px] items-start">
@@ -37,10 +37,10 @@ const Footer = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Footer;
+export default Footer
 
 // <div className="flex flex-row justify-between w-full h-40 items-end p-10">
 //   <div className="flex flex-col gap-16 h-[107px] items-start border-t-4">

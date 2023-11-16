@@ -6,10 +6,7 @@ const PaymentLink = () => {
     <div id="NewRootRoot" className="flex flex-col w-full mb-[20px]">
       <div className="pl-bg bg-cover bg-50%_50% bg-blend-normal bg-no-repeat flex flex-col justify-end min-h-[640px] shrink-0 items-end pr-40 py-24">
         <div className="shadow-[0px_4px_16px_0px_rgba(51,_51,_51,_0.08)] bg-white max-w-[560px] flex flex-col justify-center py-[40px] px-[32px] gap-[60px] shrink-0 items-start rounded-lg">
-          <div
-            id="PaymentLink1"
-            className="text-xl font-semibold text-dark"
-          >
+          <div id="PaymentLink1" className="text-xl font-semibold text-dark">
             Payment <span className="text-primary">link</span>
           </div>
           <div className="leading-[20px] text-darkshade1 font-normal text-base">
@@ -22,7 +19,7 @@ const PaymentLink = () => {
         </div>
       </div>
     </div>
-  );
+  )
 }
 
 export default PaymentLink

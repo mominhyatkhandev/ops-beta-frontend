@@ -1,7 +1,7 @@
-import React from "react";
-import Button from "@/components/UI/Button/PrimaryButton";
-import "./page.css";
-import Partners from "@/components/Content/Partners/Partners";
+import React from 'react'
+import Button from '@/components/UI/Button/PrimaryButton'
+import './page.css'
+import Partners from '@/components/Content/Partners/Partners'
 
 const PaymentGateway = () => {
   return (
@@ -22,9 +22,9 @@ const PaymentGateway = () => {
           />
         </div>
       </div>
-      <Partners/>
+      <Partners />
     </div>
-  );
-};
+  )
+}
 
-export default PaymentGateway;
+export default PaymentGateway

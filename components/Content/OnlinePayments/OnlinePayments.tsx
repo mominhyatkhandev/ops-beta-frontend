@@ -1,6 +1,6 @@
 import React from 'react'
-import bg from '../../assets/section3.png'
-import "./OnlinePayments.css";
+// import bg from '../../assets/section3.png'
+import './OnlinePayment.css'
 
 const OnlinePayments = () => {
   return (
@@ -20,7 +20,7 @@ const OnlinePayments = () => {
         </div>
       </div>
     </div>
-  );
+  )
 }
 
-export default OnlinePayments;
+export default OnlinePayments
